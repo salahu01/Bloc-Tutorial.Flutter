@@ -8,16 +8,19 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: BlocBuilder<HomeBloc, HomeState>(
-        builder: (context, state) {
-          return DropdownButton(
-            value: state.dropDownValue,
-            items: items.map((e) => DropdownMenuItem(value: e, child: Text(e, style: const TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold)))).toList(),
-            onChanged: (value) {
-              context.read<HomeBloc>().add(HomeEvent.changeDropDownValue(value: value));
-            },
-          );
-        },
+      body: Center(
+        child: BlocBuilder<HomeBloc, HomeState>(
+          builder: (context, state) {
+            return DropdownButton(
+              hint: const Text('Choose Value', style: TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold)),
+              value: state.dropDownValue,
+              items: items.map((e) => DropdownMenuItem(value: e, child: Text(e, style: const TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold)))).toList(),
+              onChanged: (value) {
+                context.read<HomeBloc>().add(HomeEvent.changeDropDownValue(value: value));
+              },
+            );
+          },
+        ),
       ),
     );
   }
