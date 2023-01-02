@@ -1,3 +1,5 @@
+import 'package:dropdown_button/application/bloc/home_bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -6,9 +8,16 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: DropdownButton(
-        items: items.map((e) => DropdownMenuItem(child: Text(e))).toList(),
-        onChanged: (value) {},
+      body: BlocBuilder<HomeBloc, HomeState>(
+        builder: (context, state) {
+          return DropdownButton(
+            value: state.dropDownValue,
+            items: items.map((e) => DropdownMenuItem(value: e, child: Text(e, style: const TextStyle(color: Colors.black, fontSize: 30, fontWeight: FontWeight.bold)))).toList(),
+            onChanged: (value) {
+              context.read<HomeBloc>().add(HomeEvent.changeDropDownValue(value: value));
+            },
+          );
+        },
       ),
     );
   }
