@@ -1,16 +1,25 @@
-# api_integraton
 
-A new Flutter project.
+# Api Integration In Flutter bloc
 
-## Getting Started
+Before going to integration we need to add some dependencies to our project .
 
-This project is a starting point for a Flutter application.
+### dependencies
 
-A few resources to get you started if this is your first Flutter project:
+* bloc
+* flutter_bloc
+* freezed_annotation
+* http
+* json_annotation
+* dartz
+* get_it
+* injectable
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### dev dependencies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* build_runner
+* freezed
+* injectable_generator
+* json_serializable
+
+
+
