@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:api_integraton/application/movies/movies_bloc.dart';
 import 'package:api_integraton/application/shows/shows_bloc.dart';
-import 'package:api_integraton/presentation/widgets/movies_list.dart';
 import 'package:api_integraton/presentation/widgets/shows_list.dart';
 
 class ShowsTab extends StatelessWidget {
