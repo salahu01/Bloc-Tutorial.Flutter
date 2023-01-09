@@ -1,13 +1,11 @@
 # Api Integration In Flutter bloc
 
-
-![App Screenshot 1](https://ik.imagekit.io/vun0le607a/Github/Flutter_bloc_tutorial_/Api_integration_/Screenshot_20230109-151658_VJOw0o-7j.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673257846931)
-
-![App Screenshot 2](https://ik.imagekit.io/vun0le607a/Github/Flutter_bloc_tutorial_/Api_integration_/Screenshot_20230109-151706_eIFc23VgZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673257846896)
-
-![App Screenshot 3](https://ik.imagekit.io/vun0le607a/Github/Flutter_bloc_tutorial_/Api_integration_/Screenshot_20230109-151710_2TAEdOJ6N.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673257846942)
-
-![App Screenshot 4](https://ik.imagekit.io/vun0le607a/Github/Flutter_bloc_tutorial_/Api_integration_/Screenshot_20230109-151716_rMYGUbjVdv.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673257845013)
+<p float="left">
+    <img src="https://ik.imagekit.io/vun0le607a/Github/Flutter_bloc_tutorial_/Api_integration_/Screenshot_20230109-151658_VJOw0o-7j.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673257846931" width="100" />
+  <img src="https://ik.imagekit.io/vun0le607a/Github/Flutter_bloc_tutorial_/Api_integration_/Screenshot_20230109-151706_eIFc23VgZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673257846896" width="100" />
+  <img src="https://ik.imagekit.io/vun0le607a/Github/Flutter_bloc_tutorial_/Api_integration_/Screenshot_20230109-151710_2TAEdOJ6N.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673257846942" width="100" /> 
+  <img src="https://ik.imagekit.io/vun0le607a/Github/Flutter_bloc_tutorial_/Api_integration_/Screenshot_20230109-151716_rMYGUbjVdv.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673257845013" width="100" />
+</p>
 
 
 ## Get Started
