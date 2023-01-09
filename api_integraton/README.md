@@ -1,6 +1,6 @@
 # Api Integration In Flutter bloc
 
-## User Interface
+## App Screenshot
 
 <p float="left">
     <img src="https://ik.imagekit.io/vun0le607a/Github/Flutter_bloc_tutorial_/Api_integration_/Screenshot_20230109-151658_VJOw0o-7j.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673257846931" width="200" />
